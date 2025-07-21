@@ -56,7 +56,7 @@ export function Footer() {
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Pet Shop Dev</h3>
                         <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação.</p>
-                        <a href='#' className='bg-green-500 px-4 py-2 rounded-md '>
+                        <a href={`https://wa.me/5511999999999?text=Oi vim pelo site e gostaria de mais informações`} className='bg-green-500 px-4 py-2 rounded-md '>
                             Contato via WhatsApp
                         </a>
                     </div>
@@ -71,13 +71,13 @@ export function Footer() {
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Redes Sociais</h3>
                         <div className='flex gap-4'>
-                            <a href='#' target='_blank'>
+                            <a href='https://facebook.com' target='_blank'>
                                 <FacebookLogoIcon className='w-8 h-8' />
                             </a>
-                            <a href='#' target='_blank'>
+                            <a href='https://instagram.com' target='_blank'>
                                 <InstagramLogoIcon className='w-8 h-8' />
                             </a>
-                            <a href='#' target='_blank'>
+                            <a href='https://youtube.com' target='_blank'>
                                 <YoutubeLogoIcon className='w-8 h-8' />
                             </a>
                         </div>
